@@ -132,3 +132,23 @@ button {
   margin-right: 450px;
   align-self: flex-end;
 }
+
+.banner {
+  color: white;
+  display: flex;
+  background-color: rgb(61, 139, 255);
+  padding: 50px 100px;
+  margin: 100px 380px;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.banner button {
+  border: 2px solid white;
+}
+
+#call-to-action {
+  font-weight: 700;
+  font-size: 25px;
+}
+
