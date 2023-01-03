@@ -75,3 +75,37 @@ button {
   font-size: 24px;
   font-weight: 700;
 }
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.info-title h2{
+  font-size: 36px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.box {
+  border: 3px solid rgb(61, 139, 255);
+  border-radius: 12px;
+  height: 150px;
+  width: 150px;
+}
+
+.text {
+  margin-top: 10px;
+}
